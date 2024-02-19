@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# avatar maker app 12", "C# avatar maker app 12\C# avatar maker app 12.csproj", "{9569CC56-C947-483D-8B9A-A5EEFCE221FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9569CC56-C947-483D-8B9A-A5EEFCE221FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9569CC56-C947-483D-8B9A-A5EEFCE221FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9569CC56-C947-483D-8B9A-A5EEFCE221FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9569CC56-C947-483D-8B9A-A5EEFCE221FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C1F620A-AB08-406A-963A-A9ED2D27C450}
+	EndGlobalSection
+EndGlobal
