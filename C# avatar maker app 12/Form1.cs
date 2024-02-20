@@ -235,6 +235,7 @@ namespace HeroMaker
 
             //------START------- C# avatar maker app 12 static list to work as a global variable ----------------------------
             HeroList myHeroes = new HeroList();
+            myHeroes.hallOfFame.Add(hero);
             //-------END------ C# avatar maker app 12 static list to work as a global variable ----------------------------
 
         }

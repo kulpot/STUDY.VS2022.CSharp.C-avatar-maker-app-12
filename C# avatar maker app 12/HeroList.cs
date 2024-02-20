@@ -9,8 +9,8 @@ using C__heromaker_10;
 namespace C__avatar_maker_app_12
 {
     //static class HeroList
-    class HeroList
+    public class HeroList
     {
-        List<Hero> hallOfFame = new List<Hero>();
+        public List<Hero> hallOfFame = new List<Hero>();
     }
 }
