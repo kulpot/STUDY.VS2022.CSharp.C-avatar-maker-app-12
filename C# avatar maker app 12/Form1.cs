@@ -62,7 +62,7 @@ using System.Windows.Forms;
 //-------------- C# avatar maker app 12 static list to work as a global variable ----------------------------
 //ref link:https://www.youtube.com/watch?v=zJKHf7gi4iM&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=4&t=20s
 
-
+//
 
 namespace HeroMaker
 {
