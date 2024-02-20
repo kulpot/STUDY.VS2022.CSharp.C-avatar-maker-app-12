@@ -220,10 +220,6 @@ namespace HeroMaker
             status_message += " \n The picture of the heros is: " + picture_of_hero;
             //----END------- C# heromaker part 09 Picturebox control Visual Studio -------------------------------
 
-            //------START---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
-            MessageBox.Show(status_message);
-            //------END---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
-
             //-----START------- C# heromaker 10 hero object ---------------------------------------------------------
             Hero hero = new Hero(heroName, abilities, cities, 
                 preferred_transport, speed, stamina, strength, 
@@ -234,9 +230,13 @@ namespace HeroMaker
             //-----END------- C# heromaker 10 hero object ---------------------------------------------------------
 
             //------START------- C# avatar maker app 12 static list to work as a global variable ----------------------------
-            HeroList myHeroes = new HeroList();
+            HeroList myHeroes = new HeroList(); // Problem:The scope of myHeroes is limited to the click function.
             myHeroes.hallOfFame.Add(hero);
             //-------END------ C# avatar maker app 12 static list to work as a global variable ----------------------------
+
+            //------START---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
+            MessageBox.Show(status_message);
+            //------END---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
 
         }
 
