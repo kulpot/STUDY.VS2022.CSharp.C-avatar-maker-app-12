@@ -241,6 +241,9 @@ namespace HeroMaker
             //------START---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
             MessageBox.Show(status_message);
             //------END---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
+            //------START------- C# avatar maker app 12 static list to work as a global variable ----------------------------
+            MessageBox.Show("your have made " + myHeroes.hallOfFame.Count() + " different heroes");
+            //-------END------ C# avatar maker app 12 static list to work as a global variable ----------------------------
 
         }
 
