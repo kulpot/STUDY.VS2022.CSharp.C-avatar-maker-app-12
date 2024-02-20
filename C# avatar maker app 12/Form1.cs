@@ -1,4 +1,5 @@
-﻿using C__heromaker_10;
+﻿using C__avatar_maker_app_12;
+using C__heromaker_10;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -62,7 +63,7 @@ using System.Windows.Forms;
 //-------------- C# avatar maker app 12 static list to work as a global variable ----------------------------
 //ref link:https://www.youtube.com/watch?v=zJKHf7gi4iM&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=4&t=20s
 
-//
+// created HeroList.cs,
 
 namespace HeroMaker
 {
@@ -231,6 +232,10 @@ namespace HeroMaker
                 dark_side, 
                 picture_of_hero);
             //-----END------- C# heromaker 10 hero object ---------------------------------------------------------
+
+            //------START------- C# avatar maker app 12 static list to work as a global variable ----------------------------
+            HeroList myHeroes = new HeroList();
+            //-------END------ C# avatar maker app 12 static list to work as a global variable ----------------------------
 
         }
 
