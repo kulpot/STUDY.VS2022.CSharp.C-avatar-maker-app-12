@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using C__heromaker_10;
+
 
 namespace C__avatar_maker_app_12
 {
-    public class HeroList
+    class HeroList
     {
+        List<Hero> hallOfFame = new List<Hero>();
     }
 }
